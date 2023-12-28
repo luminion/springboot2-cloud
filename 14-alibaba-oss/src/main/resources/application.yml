@@ -1,0 +1,19 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: 14-alibaba-oss
+aliyun:
+  oss:
+    # 账户
+    accessKeyId: 123456
+    # 密钥
+    accessKeySecret: 123456
+    # 服务节点
+    endpoint: oss-cn-chengdu.aliyuncs.com
+    # bucket名
+    bucketName: booty-test-bucket
+    # 过期时间 s
+    policyExpire: 300
+    # 最大大小 m
+    maxSize: 10

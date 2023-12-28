@@ -1,0 +1,35 @@
+server:
+  port: 3377
+
+spring:
+  application:
+    name: nacos-config-client
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 #Nacos服务注册中心地址
+      config:
+        server-addr: localhost:8848 #Nacos作为配置中心地址
+        file-extension: yaml  #指定yaml格式的配置
+        #namespace: e69dbe0a-233d-4b73-a173-89e9e8a1d041
+        group: DEFAULT_GROUP
+        #group: DEV_GROUP
+
+  profiles:
+    active: dev #开发环境
+    #active: test #测试环境
+    #active: info
+# nacos配置文件名的拼接规则: 项目名-开发环境.文件后缀（properties或yaml）
+# 开发环境可以不指定，但不推荐，此时配置文件的名字为：项目名.文件后缀
+# 文件后缀尽量写yaml且互相对应，yml在低版本可能会出问题
+# group必须和nacos新建配置文件时的group相同
+# 规则：${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file.extension}
+# 例：nacos-config-client-dev.yaml
+
+# nacos的命名空间
+# namespace+group+DataID
+# 类似项目：包名：类名；用于集群服务器分辨使用，例如：chengdu+group1+dev或chengdu+group1+dev2
+# namespace：在nacos中新建namespace后拷贝其id，之后通过spring.cloud.nacos.config.namespace=***指定其id
+# group：通过spring.cloud.nacos.config.group=***指定，nacos服务器上新建配置文件时指定相同组即可
+# DataID：通过spring.profiles.active=*** 指定，即配置文件的开发环境项
+# nacos开启集群的方式：https://nacos.io/zh-cn/docs/cluster-mode-quick-start.html

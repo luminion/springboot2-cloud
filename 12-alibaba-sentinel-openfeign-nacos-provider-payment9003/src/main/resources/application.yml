@@ -1,0 +1,15 @@
+server:
+  port: 9003
+  #若要启动多个该服务，通过idea启动的VM-options配置-Dserver.port=xxx添加启动项启动多个
+spring:
+  application:
+    name: nacos-payment-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 #配置Nacos地址
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'  #监控

@@ -1,0 +1,44 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: config-center
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/bootystar/springcloud.git #github仓库上面的git仓库名字（若用http则需要将链接最后面的.git去掉）
+          #搜索目录或根目录文件（可指定多个）
+          search-paths:
+            - config
+          username: bootystar
+          password: 123456
+      #读取分支
+      label: master
+      #文件名
+#      name: config
+#      profile: dev #指定调用的文件是后缀是
+  #rabbit相关配置，15672是web管理界面的端口，5672是MQ访问的端口
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka #注册进eureka
+
+#rabbitmq相关配置，暴露bus刷新配置的端点
+#通过消息总线通知配置中心客户端刷新配置，也可以自己指定刷新（需要添加actuator依赖，并开启RabbitMQ）
+management:
+  endpoints:  #暴露bus刷新配置的端点
+    web:
+      exposure:
+        include: 'bus-refresh'  #凡是暴露监控、刷新的都要有actuator依赖，bus-refresh就是actuator的刷新操作
+        #此时修改配置文件后，发送post指令：http://localhost:3344/actuator/bus-fresh，将会通过消息总线通知所有客户端修改
+        #若需指定某个服务单独修改，发送post指令：http://localhost:3344/actuator/bus-fresh/config-client3355
+        #总结：
+        #修改所有：http://配置中心服务端地址：端口/actuator/bus-fresh
+        #修改部分：http://配置中心服务端地址：端口/actuator/bus-fresh/客户端名称：客户端端口

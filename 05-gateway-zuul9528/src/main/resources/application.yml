@@ -1,0 +1,17 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: zuul
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+zuul:
+  routes:
+    order:               #规则名称
+      path: /order/**    #指定路径
+      serviceId: order   #指定对应在服务中心注册的服务名
+    payment:
+      path: /payment/**
+      serviceId: payment
