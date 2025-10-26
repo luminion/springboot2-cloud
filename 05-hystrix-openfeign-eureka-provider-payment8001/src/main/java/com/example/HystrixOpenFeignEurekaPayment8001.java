@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Bean;
 /**
  * 注解@EnableCircuitBreaker：开启hystrix服务熔断降级
  *
- * @author booty
+ * @author luminion
  * @version 1.0
  * @date 2021/3/18 10:25
  */

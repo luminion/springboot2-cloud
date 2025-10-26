@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.PathVariable;
  * https://blog.csdn.net/weixin_44257627/article/details/104212985?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_baidulandingword-1&spm=1001.2101.3001.4242
  *  尽量使用@RequestParam注解，若为@RequestBody,则请求类型必须时post
  *
- * @author booty
+ * @author luminion
  * @version 1.0
  * @date 2021/3/19 16:49
  */

@@ -12,7 +12,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  * 注解@EnableDiscoveryClient 允许通过服务发现来获取eureka服务中的服务信息
  * 注解@EnableFeignClients    允OpenFeign远程服务调用
  *
- * @author booty
+ * @author luminion
  * @version 1.0
  * @date 2021/3/18 9:45
  */

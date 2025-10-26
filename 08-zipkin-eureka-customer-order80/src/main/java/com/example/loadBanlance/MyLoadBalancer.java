@@ -9,7 +9,7 @@ import java.util.List;
  * 启用时单独启动指定方法，并需要将config配置类中的@LoadBalanced注解去掉
  * 以确实使用的是自己定义的规则
  *
- * @author booty
+ * @author luminion
  * @version 1.0
  */
 public interface MyLoadBalancer {

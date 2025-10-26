@@ -11,7 +11,7 @@ import org.apache.ibatis.annotations.Mapper;
  *  Mapper 接口
  * </p>
  *
- * @author booty
+ * @author luminion
  */
 @Mapper
 public interface OrderMapper extends BaseMapper<Order> {

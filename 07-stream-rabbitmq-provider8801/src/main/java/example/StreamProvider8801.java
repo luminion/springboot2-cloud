@@ -12,7 +12,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  * 使用服务不同导入的依赖也不同
  * 此处使用rabbitmq
  *
- * @author booty
+ * @author luminion
  * @version 1.0
  */
 @EnableEurekaClient

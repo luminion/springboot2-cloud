@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 /**
  * 远程调用降级类
  *
- * @author booty
+ * @author luminion
  * @version 1.0
  */
 @Component

@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 import javax.annotation.Resource;
 
 /**
- * @author booty
+ * @author luminion
  * @version 1.0
  */
 @RestController

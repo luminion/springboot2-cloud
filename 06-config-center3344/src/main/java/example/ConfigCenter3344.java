@@ -16,7 +16,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  *
  *
  *
- * @author booty
+ * @author luminion
  * @version 1.0
  */
 @EnableEurekaClient

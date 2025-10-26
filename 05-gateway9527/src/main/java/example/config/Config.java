@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
  * 通过配置类自定义网关
  * （该种配置方式较复杂，不常用，了解即可，一般在配置文件中指定）
  *
- * @author booty
+ * @author luminion
  * @version 1.0
  */
 @Configuration

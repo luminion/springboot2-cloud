@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * 获取配置文件中对应的信息
  *
- * @author booty
+ * @author luminion
  */
 @Data
 @Configuration

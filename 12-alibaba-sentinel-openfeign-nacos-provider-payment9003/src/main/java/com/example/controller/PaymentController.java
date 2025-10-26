@@ -14,7 +14,7 @@ import java.util.UUID;
  *
  *
  *
- * @author booty
+ * @author luminion
  */
 @RestController
 @RequestMapping("/payment")

@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * @author booty
+ * @author luminion
  * @version 1.0
  * @date 2021/3/18 11:02
  */

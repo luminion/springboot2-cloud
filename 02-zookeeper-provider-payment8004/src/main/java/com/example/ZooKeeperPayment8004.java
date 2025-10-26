@@ -19,7 +19,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * zooKeeper的注册节点使用的默认是临时节点，不同于eureka，当其zooKeeper在指定时间内检测不到心跳时，会立刻删除注册的节点
  *
  *
- * @author booty
+ * @author luminion
  * @version 1.0
  */
 @SpringBootApplication

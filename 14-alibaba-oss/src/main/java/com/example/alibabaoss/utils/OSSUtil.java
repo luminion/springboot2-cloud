@@ -16,7 +16,7 @@ import java.util.Date;
 import java.util.UUID;
 
 /**
- * @author booty
+ * @author luminion
  */
 @Slf4j
 @Component

@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 /**
  * 配置负载均衡
  *
- * @author booty
+ * @author luminion
  * @version 1.0
  */
 @Configuration

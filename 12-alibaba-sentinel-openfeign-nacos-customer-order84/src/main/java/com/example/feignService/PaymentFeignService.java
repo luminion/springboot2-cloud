@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 /**
  * payment服务调用
  *
- * @author booty
+ * @author luminion
  * @version 1.0
  */
 @FeignClient(value = "nacos-payment-provider",fallback = PaymentFeignFallback.class)

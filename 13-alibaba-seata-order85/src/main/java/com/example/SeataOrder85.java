@@ -7,7 +7,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 
 /**
- * @author booty
+ * @author luminion
  * @version 1.0
  */
 @SpringBootApplication

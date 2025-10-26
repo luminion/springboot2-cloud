@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 /**
- * @author booty
+ * @author luminion
  * @version 1.0
  */
 @FeignClient("provider-payment")

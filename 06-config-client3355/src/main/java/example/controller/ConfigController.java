@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
  * 可以通过控制台发送post请求：
  * curl -X POST http://localhost:3355/actuator/refresh
  *
- * @author booty
+ * @author luminion
  * @version 1.0
  */
 @RestController

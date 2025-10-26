@@ -10,7 +10,7 @@ import entity.Payment;
  *  服务类
  * </p>
  *
- * @author booty
+ * @author luminion
  */
 public interface OrderService extends IService<Order> {
 

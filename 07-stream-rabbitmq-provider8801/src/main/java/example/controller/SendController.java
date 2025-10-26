@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 
 /**
- * @author booty
+ * @author luminion
  * @version 1.0
  */
 @RestController

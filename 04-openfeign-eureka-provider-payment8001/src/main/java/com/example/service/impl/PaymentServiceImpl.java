@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
  *  服务实现类
  * </p>
  *
- * @author booty
+ * @author luminion
  */
 @Service
 public class PaymentServiceImpl extends ServiceImpl<PaymentMapper, Payment> implements PaymentService {

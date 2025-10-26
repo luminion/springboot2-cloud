@@ -9,7 +9,7 @@ import entity.Payment;
  *  服务类
  * </p>
  *
- * @author booty
+ * @author luminion
  * @since 2021-03-18
  */
 public interface PaymentService extends IService<Payment> {

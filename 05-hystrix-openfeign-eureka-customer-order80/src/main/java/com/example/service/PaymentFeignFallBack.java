@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
  * 注：
  * 需要添加@Component注解，否则spring扫描到该bean进行注入
  *
- * @author booty
+ * @author luminion
  * @version 1.0
  * @date 2021/3/20 11:28
  */

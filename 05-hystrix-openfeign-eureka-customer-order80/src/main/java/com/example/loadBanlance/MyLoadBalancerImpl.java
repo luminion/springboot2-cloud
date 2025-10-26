@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * 自定义负载均衡实现类
  *
- * @author booty
+ * @author luminion
  * @version 1.0
  * @date 2021/3/19 14:31
  */

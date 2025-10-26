@@ -2,7 +2,7 @@ package example.service;
 
 /**
  * 向消息中间见发送消息的类
- * @author booty
+ * @author luminion
  * @version 1.0
  */
 public interface IMessageProviderService {

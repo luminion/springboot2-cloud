@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
  * 注解：@RefreshScope:
  * SpringCloud原生注解 支持Nacos的动态刷新功能
  *
- * @author booty
+ * @author luminion
  * @version 1.0
  */
 @RestController

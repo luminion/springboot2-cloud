@@ -7,11 +7,11 @@ spring:
     config:
       server:
         git:
-          uri: https://gitee.com/bootystar/springcloud.git #github仓库上面的git仓库名字（若用http则需要将链接最后面的.git去掉）
+          uri: https://gitee.com/luminion/springcloud.git #github仓库上面的git仓库名字（若用http则需要将链接最后面的.git去掉）
           #搜索目录或根目录文件（可指定多个）
           search-paths:
             - config
-          username: bootystar
+          username: luminion
           password: 123456
       #读取分支
       label: master

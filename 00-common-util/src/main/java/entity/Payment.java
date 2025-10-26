@@ -11,7 +11,7 @@ import lombok.experimental.Accessors;
 import java.io.Serializable;
 
 /**
- * @author booty
+ * @author luminion
  * @version 1.0
  */
 @Data

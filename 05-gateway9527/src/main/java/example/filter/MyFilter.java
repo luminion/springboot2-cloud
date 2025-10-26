@@ -17,7 +17,7 @@ import java.util.Date;
  * 实现Ordered接口是为了让该过滤器的优先级更高 getOrder方法返回值约小，优先级越高
  *
  *
- * @author booty
+ * @author luminion
  * @version 1.0
  */
 @Slf4j

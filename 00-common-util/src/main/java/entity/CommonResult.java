@@ -6,7 +6,7 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
 /**
- * @author booty
+ * @author luminion
  * @version 1.0
  */
 @Data

@@ -14,7 +14,7 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
  * 注解：@EnableZuulProxy 开启zuul网关代理
  *
  *
- * @author booty
+ * @author luminion
  * @version 1.0
  */
 @EnableEurekaClient

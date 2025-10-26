@@ -12,7 +12,7 @@ aliyun:
     # 服务节点
     endpoint: oss-cn-chengdu.aliyuncs.com
     # bucket名
-    bucketName: booty-test-bucket
+    bucketName: luminion-test-bucket
     # 过期时间 s
     policyExpire: 300
     # 最大大小 m

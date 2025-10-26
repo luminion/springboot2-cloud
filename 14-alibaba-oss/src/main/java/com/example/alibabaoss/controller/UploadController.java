@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.util.UUID;
 
 /**
- * @author booty
+ * @author luminion
  */
 @RestController
 @RequestMapping("file")

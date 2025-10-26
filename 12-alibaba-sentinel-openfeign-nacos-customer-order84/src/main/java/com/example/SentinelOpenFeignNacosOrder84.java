@@ -8,7 +8,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 /**
  * 注解@EnableDiscoveryClient 允许通过服务发现来获取服务中的服务信息
  *
- * @author booty
+ * @author luminion
  * @version 1.0
  */
 @SpringBootApplication

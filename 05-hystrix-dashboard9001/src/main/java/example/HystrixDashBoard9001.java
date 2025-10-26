@@ -37,7 +37,7 @@ import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboar
  *
  * 向被监控服务器发送请求使其触发熔断，否则显示的页面会一直显示loading
  *
- * @author booty
+ * @author luminion
  * @version 1.0
  */
 @SpringBootApplication

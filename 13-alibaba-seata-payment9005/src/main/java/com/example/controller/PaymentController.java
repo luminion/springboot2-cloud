@@ -16,7 +16,7 @@ import java.util.UUID;
  * 前端控制器
  * </p>
  *
- * @author booty
+ * @author luminion
  */
 @RestController
 public class PaymentController {

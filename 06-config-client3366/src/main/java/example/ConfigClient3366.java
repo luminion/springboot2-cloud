@@ -8,7 +8,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  * 获取配置中心的值的模块
  * 需要添加配置中心的依赖
  *
- * @author booty
+ * @author luminion
  * @version 1.0
  */
 @EnableEurekaClient

@@ -10,7 +10,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  *
  * 若要启动多个该服务，通过idea启动的VM-options配置-Dserver.port=xxx添加启动项启动多个
  *
- * @author booty
+ * @author luminion
  * @version 1.0
  */
 @SpringBootApplication

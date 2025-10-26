@@ -19,7 +19,7 @@ import reactor.core.publisher.Mono;
  * replenishRate，令牌桶每秒填充平均速率。
  * key-resolver，用于限流的键的解析器的 Bean 对象的名字。它使用 SpEL 表达式根据#{@beanName}从 Spring 容器中获取 Bean 对象。
  *
- * @author booty
+ * @author luminion
  * @version 1.0
  */
 @Configuration

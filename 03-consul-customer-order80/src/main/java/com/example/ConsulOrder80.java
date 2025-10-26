@@ -30,7 +30,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * CP:  redis;zooKeeper;consul
  * CA:  mysql
  *
- * @author booty
+ * @author luminion
  * @version 1.0
  */
 @SpringBootApplication

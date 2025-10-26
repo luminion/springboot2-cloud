@@ -10,7 +10,7 @@ import org.apache.ibatis.annotations.Mapper;
  *  Mapper 接口
  * </p>
  *
- * @author booty
+ * @author luminion
  * @since 2021-03-18
  */
 @Mapper

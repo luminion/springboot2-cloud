@@ -12,7 +12,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  *
  * 若开启了redis限流，需要打开redis
  *
- * @author booty
+ * @author luminion
  * @version 1.0
  */
 @EnableEurekaClient
